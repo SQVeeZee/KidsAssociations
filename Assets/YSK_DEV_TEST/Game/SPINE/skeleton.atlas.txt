@@ -1,0 +1,342 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm 2
+  rotate: false
+  xy: 383, 108
+  size: 76, 198
+  orig: 76, 198
+  offset: 0, 0
+  index: -1
+Ear
+  rotate: true
+  xy: 774, 25
+  size: 107, 137
+  orig: 107, 137
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: true
+  xy: 777, 294
+  size: 33, 18
+  orig: 33, 18
+  offset: 0, 0
+  index: -1
+Eyebrow 2
+  rotate: false
+  xy: 80, 4
+  size: 38, 21
+  orig: 38, 21
+  offset: 0, 0
+  index: -1
+Eyelid
+  rotate: false
+  xy: 454, 32
+  size: 55, 51
+  orig: 55, 51
+  offset: 0, 0
+  index: -1
+Eyelid closed
+  rotate: true
+  xy: 913, 2
+  size: 54, 71
+  orig: 54, 71
+  offset: 0, 0
+  index: -1
+Eyelid closed 2
+  rotate: true
+  xy: 934, 139
+  size: 86, 77
+  orig: 87, 77
+  offset: 1, 0
+  index: -1
+Eyes
+  rotate: false
+  xy: 774, 134
+  size: 158, 91
+  orig: 158, 91
+  offset: 0, 0
+  index: -1
+Hair
+  rotate: true
+  xy: 134, 174
+  size: 112, 98
+  orig: 112, 98
+  offset: 0, 0
+  index: -1
+Head
+  rotate: false
+  xy: 240, 308
+  size: 225, 201
+  orig: 225, 201
+  offset: 0, 0
+  index: -1
+Lapa s kogtyami 1 2
+  rotate: false
+  xy: 461, 85
+  size: 163, 89
+  orig: 163, 89
+  offset: 0, 0
+  index: -1
+Lapa s kogtyami 2 2
+  rotate: true
+  xy: 511, 32
+  size: 51, 52
+  orig: 51, 52
+  offset: 0, 0
+  index: -1
+Leg 2
+  rotate: true
+  xy: 134, 18
+  size: 109, 202
+  orig: 109, 202
+  offset: 0, 0
+  index: -1
+Mouth 1
+  rotate: true
+  xy: 746, 292
+  size: 35, 29
+  orig: 35, 29
+  offset: 0, 0
+  index: -1
+Mouth 2
+  rotate: true
+  xy: 338, 45
+  size: 34, 33
+  orig: 34, 33
+  offset: 0, 0
+  index: -1
+Mouth 3
+  rotate: false
+  xy: 746, 263
+  size: 38, 27
+  orig: 38, 27
+  offset: 0, 0
+  index: -1
+Mouth 4
+  rotate: true
+  xy: 746, 329
+  size: 37, 32
+  orig: 37, 32
+  offset: 0, 0
+  index: -1
+Mouth 5
+  rotate: false
+  xy: 761, 232
+  size: 33, 29
+  orig: 33, 29
+  offset: 0, 0
+  index: -1
+Mouth 6
+  rotate: false
+  xy: 42, 2
+  size: 36, 23
+  orig: 36, 23
+  offset: 0, 0
+  index: -1
+Mouth 7
+  rotate: false
+  xy: 2, 2
+  size: 38, 23
+  orig: 38, 23
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: false
+  xy: 240, 129
+  size: 141, 177
+  orig: 141, 177
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: true
+  xy: 934, 58
+  size: 79, 77
+  orig: 79, 77
+  offset: 0, 0
+  index: -1
+Pupil 2
+  rotate: true
+  xy: 338, 18
+  size: 25, 39
+  orig: 25, 39
+  offset: 0, 0
+  index: -1
+Spine
+  rotate: true
+  xy: 467, 176
+  size: 267, 170
+  orig: 267, 170
+  offset: 0, 0
+  index: -1
+Tail line
+  rotate: false
+  xy: 467, 445
+  size: 328, 64
+  orig: 328, 64
+  offset: 0, 0
+  index: -1
+Tongue
+  rotate: true
+  xy: 188, 145
+  size: 27, 43
+  orig: 27, 44
+  offset: 0, 0
+  index: -1
+Whisker 5
+  rotate: false
+  xy: 639, 227
+  size: 120, 13
+  orig: 120, 13
+  offset: 0, 0
+  index: -1
+blik 1
+  rotate: true
+  xy: 188, 130
+  size: 13, 14
+  orig: 13, 14
+  offset: 0, 0
+  index: -1
+eyelid 2
+  rotate: false
+  xy: 626, 36
+  size: 80, 57
+  orig: 80, 57
+  offset: 0, 0
+  index: -1
+eyelid 2 shcuritsya
+  rotate: true
+  xy: 383, 24
+  size: 82, 69
+  orig: 82, 69
+  offset: 0, 0
+  index: -1
+eyelid 2 udivlenie
+  rotate: true
+  xy: 746, 368
+  size: 75, 44
+  orig: 75, 44
+  offset: 0, 0
+  index: -1
+eyelid shcuritsya
+  rotate: false
+  xy: 708, 29
+  size: 57, 64
+  orig: 57, 64
+  offset: 0, 0
+  index: -1
+eyelid udivlenie
+  rotate: false
+  xy: 134, 134
+  size: 52, 38
+  orig: 52, 38
+  offset: 0, 0
+  index: -1
+hat
+  rotate: false
+  xy: 2, 288
+  size: 236, 221
+  orig: 236, 221
+  offset: 0, 0
+  index: -1
+hat cat back
+  rotate: true
+  xy: 2, 78
+  size: 208, 130
+  orig: 210, 132
+  offset: 1, 1
+  index: -1
+hat_back
+  rotate: false
+  xy: 797, 227
+  size: 189, 282
+  orig: 189, 282
+  offset: 0, 0
+  index: -1
+head 2
+  rotate: false
+  xy: 639, 242
+  size: 105, 201
+  orig: 105, 205
+  offset: 0, 0
+  index: -1
+heart
+  rotate: true
+  xy: 565, 51
+  size: 32, 25
+  orig: 32, 25
+  offset: 0, 0
+  index: -1
+heart 2
+  rotate: false
+  xy: 373, 66
+  size: 8, 13
+  orig: 8, 13
+  offset: 0, 0
+  index: -1
+klubok
+  rotate: false
+  xy: 639, 95
+  size: 133, 130
+  orig: 133, 130
+  offset: 0, 0
+  index: -1
+kogot1
+  rotate: true
+  xy: 373, 51
+  size: 13, 8
+  orig: 13, 8
+  offset: 0, 0
+  index: -1
+kogot2
+  rotate: true
+  xy: 204, 134
+  size: 9, 12
+  orig: 9, 12
+  offset: 0, 0
+  index: -1
+kogot3
+  rotate: true
+  xy: 218, 134
+  size: 9, 11
+  orig: 9, 11
+  offset: 0, 0
+  index: -1
+kogot4
+  rotate: true
+  xy: 120, 13
+  size: 12, 10
+  orig: 12, 10
+  offset: 0, 0
+  index: -1
+mouth
+  rotate: true
+  xy: 986, 26
+  size: 30, 27
+  orig: 30, 27
+  offset: 0, 0
+  index: -1
+nitka
+  rotate: false
+  xy: 2, 67
+  size: 130, 9
+  orig: 130, 9
+  offset: 0, 0
+  index: -1
+osheinik
+  rotate: false
+  xy: 2, 27
+  size: 128, 38
+  orig: 128, 38
+  offset: 0, 0
+  index: -1
+pupil big
+  rotate: false
+  xy: 338, 81
+  size: 43, 46
+  orig: 43, 46
+  offset: 0, 0
+  index: -1
