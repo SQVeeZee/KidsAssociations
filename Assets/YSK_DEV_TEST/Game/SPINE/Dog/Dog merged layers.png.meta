@@ -1,0 +1,860 @@
+fileFormatVersion: 2
+guid: 68c608fa681736949ae0319fe867f970
+TextureImporter:
+  internalIDToNameTable:
+  - first:
+      213: -4329410779101500385
+    second: Dog merged layers_0
+  - first:
+      213: 7284912152891787860
+    second: Dog merged layers_1
+  - first:
+      213: 3212619456940352562
+    second: Dog merged layers_2
+  - first:
+      213: 8537661733607506353
+    second: Dog merged layers_3
+  - first:
+      213: -6188164805191694862
+    second: Dog merged layers_4
+  - first:
+      213: -1951817430868815424
+    second: Dog merged layers_5
+  - first:
+      213: -4154832730824504493
+    second: Dog merged layers_6
+  - first:
+      213: -9023407470592876148
+    second: Dog merged layers_7
+  - first:
+      213: 4201299150537623780
+    second: Dog merged layers_8
+  - first:
+      213: -7944410334356013846
+    second: Dog merged layers_9
+  - first:
+      213: -4730165331911707583
+    second: Dog merged layers_10
+  - first:
+      213: -3587741575009520139
+    second: Dog merged layers_11
+  - first:
+      213: 6260720810305868507
+    second: Dog merged layers_12
+  - first:
+      213: 2033276386032900106
+    second: Dog merged layers_13
+  - first:
+      213: -5183458321593311617
+    second: Dog merged layers_14
+  - first:
+      213: -5671541422784535202
+    second: Dog merged layers_15
+  - first:
+      213: -664574935824622442
+    second: Dog merged layers_16
+  - first:
+      213: -5505633448661759497
+    second: Dog merged layers_17
+  - first:
+      213: -6273987643490231135
+    second: Dog merged layers_18
+  - first:
+      213: 8329999517637584477
+    second: Dog merged layers_19
+  - first:
+      213: -5241316425795466350
+    second: Dog merged layers_20
+  - first:
+      213: -4725559851035133000
+    second: Dog merged layers_21
+  - first:
+      213: 3155460315344810898
+    second: Dog merged layers_22
+  - first:
+      213: -5858905225576069403
+    second: Dog merged layers_23
+  - first:
+      213: -4694050752457794825
+    second: Dog merged layers_24
+  - first:
+      213: -4721789691631769062
+    second: Dog merged layers_25
+  - first:
+      213: -5830269972111655221
+    second: Dog merged layers_26
+  - first:
+      213: -139411359869729534
+    second: Dog merged layers_27
+  - first:
+      213: 2686140790731869744
+    second: Dog merged layers_28
+  - first:
+      213: 647845412555148997
+    second: Dog merged layers_29
+  - first:
+      213: -4155263754948501091
+    second: Dog merged layers_30
+  externalObjects: {}
+  serializedVersion: 11
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 0
+    sRGBTexture: 1
+    linearTexture: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapsPreserveCoverage: 0
+    alphaTestReferenceValue: 0.5
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: 0.25
+    normalMapFilter: 0
+  isReadable: 0
+  streamingMipmaps: 0
+  streamingMipmapsPriority: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 6
+  cubemapConvolution: 0
+  seamlessCubemap: 0
+  textureFormat: 1
+  maxTextureSize: 2048
+  textureSettings:
+    serializedVersion: 2
+    filterMode: -1
+    aniso: -1
+    mipBias: -100
+    wrapU: -1
+    wrapV: -1
+    wrapW: -1
+  nPOTScale: 0
+  lightmap: 0
+  compressionQuality: 50
+  spriteMode: 1
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: 0.5, y: 0.5}
+  spritePixelsToUnits: 100
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spriteGenerateFallbackPhysicsShape: 1
+  alphaUsage: 1
+  alphaIsTransparency: 0
+  spriteTessellationDetail: -1
+  textureType: 0
+  textureShape: 1
+  singleChannelComponent: 0
+  maxTextureSizeSet: 0
+  compressionQualitySet: 0
+  textureFormatSet: 0
+  applyGammaDecoding: 0
+  platformSettings:
+  - serializedVersion: 3
+    buildTarget: DefaultTexturePlatform
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Standalone
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  - serializedVersion: 3
+    buildTarget: Android
+    maxTextureSize: 2048
+    resizeAlgorithm: 0
+    textureFormat: -1
+    textureCompression: 0
+    compressionQuality: 50
+    crunchedCompression: 0
+    allowsAlphaSplitting: 0
+    overridden: 0
+    androidETC2FallbackOverride: 0
+    forceMaximumCompressionQuality_BC6H_BC7: 0
+  spriteSheet:
+    serializedVersion: 2
+    sprites:
+    - serializedVersion: 2
+      name: Dog merged layers_0
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 426
+        width: 101
+        height: 81
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f1c68e8a5d7dae3c0800000000000000
+      internalID: -4329410779101500385
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_1
+      rect:
+        serializedVersion: 2
+        x: 108
+        y: 426
+        width: 138
+        height: 64
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 45a8a058105391560800000000000000
+      internalID: 7284912152891787860
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_2
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 410
+        width: 135
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2342079ff54859c20800000000000000
+      internalID: 3212619456940352562
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_3
+      rect:
+        serializedVersion: 2
+        x: 423
+        y: 299
+        width: 67
+        height: 203
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1b10f1cbc1edb7670800000000000000
+      internalID: 8537661733607506353
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_4
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 477
+        width: 51
+        height: 24
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2f589fe55e83f1aa0800000000000000
+      internalID: -6188164805191694862
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_5
+      rect:
+        serializedVersion: 2
+        x: 594
+        y: 435
+        width: 87
+        height: 74
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 0c116a64360c9e4e0800000000000000
+      internalID: -1951817430868815424
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_6
+      rect:
+        serializedVersion: 2
+        x: 685
+        y: 435
+        width: 54
+        height: 71
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 35b0a0205a11756c0800000000000000
+      internalID: -4154832730824504493
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_7
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 267
+        width: 251
+        height: 155
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: c81a4bba6ba66c280800000000000000
+      internalID: -9023407470592876148
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_8
+      rect:
+        serializedVersion: 2
+        x: 397
+        y: 410
+        width: 13
+        height: 15
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 4e802f661530e4a30800000000000000
+      internalID: 4201299150537623780
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_9
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 408
+        width: 96
+        height: 65
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: aec74c664e8cfb190800000000000000
+      internalID: -7944410334356013846
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_10
+      rect:
+        serializedVersion: 2
+        x: 599
+        y: 336
+        width: 89
+        height: 95
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 144f88e21b31b5eb0800000000000000
+      internalID: -4730165331911707583
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_11
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 400
+        width: 57
+        height: 29
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5f538a3db08c53ec0800000000000000
+      internalID: -3587741575009520139
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_12
+      rect:
+        serializedVersion: 2
+        x: 754
+        y: 373
+        width: 90
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bd25d20086c82e650800000000000000
+      internalID: 6260720810305868507
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_13
+      rect:
+        serializedVersion: 2
+        x: 848
+        y: 373
+        width: 88
+        height: 87
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a085eafa916a73c10800000000000000
+      internalID: 2033276386032900106
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_14
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 363
+        width: 38
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: f7e5361ae18a018b0800000000000000
+      internalID: -5183458321593311617
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_15
+      rect:
+        serializedVersion: 2
+        x: 304
+        y: 299
+        width: 115
+        height: 107
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: e55a3060023aa41b0800000000000000
+      internalID: -5671541422784535202
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_16
+      rect:
+        serializedVersion: 2
+        x: 494
+        y: 299
+        width: 101
+        height: 105
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 69c9b8fed94f6c6f0800000000000000
+      internalID: -664574935824622442
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_17
+      rect:
+        serializedVersion: 2
+        x: 692
+        y: 336
+        width: 58
+        height: 60
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7f9c10d6c8f0893b0800000000000000
+      internalID: -5505633448661759497
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_18
+      rect:
+        serializedVersion: 2
+        x: 763
+        y: 278
+        width: 95
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 1ac1390ba715ee8a0800000000000000
+      internalID: -6273987643490231135
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_19
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 314
+        width: 38
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d56a6f35d6a1a9370800000000000000
+      internalID: 8329999517637584477
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_20
+      rect:
+        serializedVersion: 2
+        x: 619
+        y: 99
+        width: 140
+        height: 233
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29b8a0dfa7a1347b0800000000000000
+      internalID: -5241316425795466350
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_21
+      rect:
+        serializedVersion: 2
+        x: 258
+        y: 267
+        width: 42
+        height: 43
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 8bbf3324a507b6eb0800000000000000
+      internalID: -4725559851035133000
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_22
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 199
+        width: 313
+        height: 97
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 29338fe30727acb20800000000000000
+      internalID: 3155460315344810898
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_23
+      rect:
+        serializedVersion: 2
+        x: 762
+        y: 98
+        width: 96
+        height: 177
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5e6cbd83dbcf0bea0800000000000000
+      internalID: -5858905225576069403
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_24
+      rect:
+        serializedVersion: 2
+        x: 3
+        y: 3
+        width: 297
+        height: 260
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 7fa1916f5b16bdeb0800000000000000
+      internalID: -4694050752457794825
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_25
+      rect:
+        serializedVersion: 2
+        x: 303
+        y: 3
+        width: 202
+        height: 193
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: a1aef26ea45d87eb0800000000000000
+      internalID: -4721789691631769062
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_26
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 99
+        width: 102
+        height: 89
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: bce78a7b958b61fa0800000000000000
+      internalID: -5830269972111655221
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_27
+      rect:
+        serializedVersion: 2
+        x: 862
+        y: 98
+        width: 48
+        height: 51
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 2058f495b16b01ef0800000000000000
+      internalID: -139411359869729534
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_28
+      rect:
+        serializedVersion: 2
+        x: 509
+        y: 3
+        width: 243
+        height: 92
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 03e824041d6174520800000000000000
+      internalID: 2686140790731869744
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_29
+      rect:
+        serializedVersion: 2
+        x: 756
+        y: 3
+        width: 129
+        height: 91
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: 5ce47b468fb9df800800000000000000
+      internalID: 647845412555148997
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    - serializedVersion: 2
+      name: Dog merged layers_30
+      rect:
+        serializedVersion: 2
+        x: 889
+        y: 3
+        width: 61
+        height: 45
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+      outline: []
+      physicsShape: []
+      tessellationDetail: 0
+      bones: []
+      spriteID: d912d3261a98556c0800000000000000
+      internalID: -4155263754948501091
+      vertices: []
+      indices: 
+      edges: []
+      weights: []
+    outline: []
+    physicsShape: []
+    bones: []
+    spriteID: 5a5952dc7b7c30f4ab2f220f6ffd594a
+    internalID: 0
+    vertices: []
+    indices: 
+    edges: []
+    weights: []
+    secondaryTextures: []
+  spritePackingTag: 
+  pSDRemoveMatte: 0
+  pSDShowRemoveMatteOption: 0
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 

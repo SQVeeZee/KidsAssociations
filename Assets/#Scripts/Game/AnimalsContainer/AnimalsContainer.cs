@@ -1,31 +1,44 @@
 ﻿using System;
 using RotaryHeart.Lib.SerializableDictionary;
+using Spine.Unity;
 using UnityEngine;
 
 public class AnimalsContainer : Singleton<AnimalsContainer>
 {
     private const string _iconFolder = "Icons";
-    private const string _tailsFolder = "TAILS";
 
-    [SerializeField] private TailsDictionary _tailsDictionary = null;
+    [SerializeField] private SpineAtlasDictionary _spineAtlasDictionary = new SpineAtlasDictionary();
     
     private string _iconPath => _iconFolder + "/";
-    private string _tailsPath => _tailsFolder + "/";
-
-    private string _tail = " tail";
     
     public void GetAnimalsIcon(EAnimalType animalType, Action<Sprite> callback)
     {
         string iconPath = _iconPath + animalType;
             
         LoadAnimalsSprite(iconPath, callback);
-    } 
-    
-    public void GetAnimalsTail(EAnimalType animalType, Action<Sprite> callback)
+    }
+
+    public SpineAtlasAsset GetAtlasByAnimalType(EAnimalType animalType)
     {
-        string tailPath = _tailsPath + animalType + _tail;
-            
-        LoadAnimalsSprite(tailPath, callback);
+        SpineAtlasAsset atlasAsset = GetAnimalsAssetData(animalType).SpineAtlasAsset;
+
+        return atlasAsset;
+    }
+    
+    public string GetTailByAnimalType(EAnimalType animalType)
+    {
+        string tailsPath = GetAnimalsAssetData(animalType).TailsPath;
+
+        return tailsPath;
+    }
+
+
+    private AnimalsAssetData GetAnimalsAssetData(EAnimalType animalType)
+    {
+        AnimalsAssetData animalsAssetData = null;
+        _spineAtlasDictionary.TryGetValue(animalType, out animalsAssetData);
+        
+        return animalsAssetData;
     }
     
     private void LoadAnimalsSprite(string iconPath, Action<Sprite> callback)
@@ -35,7 +48,20 @@ public class AnimalsContainer : Singleton<AnimalsContainer>
         ResourceRequestExtensions.GetAwaiter(request).OnCompleted(
             delegate { callback?.Invoke((Sprite) request.asset); });
     }
+
+    [Serializable]
+    public class AnimalsAssetData
+    {
+        [SerializeField] private SpineAtlasAsset _spineAtlasAsset = null;
+        [SerializeField] private string _tailsPath = null;
+        public SpineAtlasAsset SpineAtlasAsset => _spineAtlasAsset;
+        public string TailsPath => _tailsPath;
+    }
+    
     
     [Serializable]
-    public class TailsDictionary: SerializableDictionaryBase<EAnimalType, string> { }
+    public class SpineAtlasDictionary : SerializableDictionaryBase<EAnimalType, AnimalsAssetData>
+    {
+            
+    }
 }

@@ -1,0 +1,49 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 856e2bf46f14248de9444ae371596e4e, type: 3}
+  m_Name: SoundsConfigs
+  m_EditorClassIdentifier: 
+  _configs:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 000000006500000066000000c9000000ca000000cb000000cc000000cd000000ce000000
+    _keys: 000000006500000066000000c9000000ca000000cb000000cc000000cd000000ce000000
+    _values:
+    - {fileID: 11400000, guid: 160fa78b5e108a543b21617a86972f2e, type: 2}
+    - {fileID: 11400000, guid: dd0ef570ccbedbe499ba23f2e3e7d3ed, type: 2}
+    - {fileID: 11400000, guid: 160fa78b5e108a543b21617a86972f2e, type: 2}
+    - {fileID: 11400000, guid: 24a16cbb7e3ed114baad6eddf21c3347, type: 2}
+    - {fileID: 11400000, guid: 376e7be467afb704a8af5e58fa2587a1, type: 2}
+    - {fileID: 11400000, guid: 8570c9f220a505149b8ae36aac84992c, type: 2}
+    - {fileID: 11400000, guid: f4554c01ab7eec646a71839b3fb3a868, type: 2}
+    - {fileID: 11400000, guid: 1a5b486ca46aa7e43aaafa55a90fc08d, type: 2}
+    - {fileID: 11400000, guid: 43ff0fd34ccac9949858b48969fb1308, type: 2}

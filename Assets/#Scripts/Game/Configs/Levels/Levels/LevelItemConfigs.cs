@@ -8,7 +8,11 @@ public class LevelItemConfigs : ScriptableObject, ILevelItemConfigs
     
     [SerializeField] private string _levelName = default;
     [SerializeField] private EAnimalType _animalType = EAnimalType.NONE;
+    [SerializeField] private AnimalController _animalController = null;
+    [SerializeField] private TailsPanel _tailsPanel = null;
 
     public string LevelName => _levelName;
     public EAnimalType AnimalType => _animalType;
+    public TailsPanel TailsPanel => _tailsPanel;
+    public AnimalController AnimalController => _animalController;
 }

@@ -1,0 +1,132 @@
+
+Mouse merged layers.png
+size: 1024,256
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm 2
+  rotate: true
+  xy: 292, 10
+  size: 60, 95
+  orig: 60, 95
+  offset: 0, 0
+  index: -1
+Bliki
+  rotate: false
+  xy: 88, 4
+  size: 13, 15
+  orig: 15, 19
+  offset: 2, 0
+  index: -1
+Ear
+  rotate: false
+  xy: 547, 93
+  size: 129, 160
+  orig: 129, 160
+  offset: 0, 0
+  index: -1
+Ear 2
+  rotate: false
+  xy: 103, 71
+  size: 161, 182
+  orig: 161, 182
+  offset: 0, 0
+  index: -1
+Eyebrow 2
+  rotate: false
+  xy: 88, 21
+  size: 50, 25
+  orig: 52, 27
+  offset: 1, 1
+  index: -1
+Eyelid 2
+  rotate: true
+  xy: 242, 4
+  size: 65, 48
+  orig: 67, 51
+  offset: 1, 2
+  index: -1
+Eyelid closed 2
+  rotate: false
+  xy: 389, 2
+  size: 73, 76
+  orig: 75, 78
+  offset: 1, 1
+  index: -1
+Eyes
+  rotate: false
+  xy: 586, 8
+  size: 118, 83
+  orig: 120, 85
+  offset: 1, 1
+  index: -1
+Head
+  rotate: false
+  xy: 380, 80
+  size: 165, 173
+  orig: 165, 173
+  offset: 0, 0
+  index: -1
+Leg 2
+  rotate: true
+  xy: 464, 5
+  size: 73, 120
+  orig: 73, 120
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: false
+  xy: 2, 3
+  size: 54, 43
+  orig: 56, 45
+  offset: 1, 1
+  index: -1
+Mustage 2
+  rotate: true
+  xy: 58, 5
+  size: 41, 28
+  orig: 43, 30
+  offset: 1, 1
+  index: -1
+Neck
+  rotate: true
+  xy: 140, 4
+  size: 65, 100
+  orig: 65, 100
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: true
+  xy: 706, 40
+  size: 98, 58
+  orig: 98, 58
+  offset: 0, 0
+  index: -1
+Pupil 2
+  rotate: false
+  xy: 766, 88
+  size: 47, 50
+  orig: 49, 51
+  offset: 1, 0
+  index: -1
+Spine
+  rotate: true
+  xy: 266, 72
+  size: 181, 112
+  orig: 181, 112
+  offset: 0, 0
+  index: -1
+Tail
+  rotate: true
+  xy: 2, 48
+  size: 205, 99
+  orig: 205, 99
+  offset: 0, 0
+  index: -1
+cranberry
+  rotate: false
+  xy: 678, 140
+  size: 113, 113
+  orig: 113, 113
+  offset: 0, 0
+  index: -1

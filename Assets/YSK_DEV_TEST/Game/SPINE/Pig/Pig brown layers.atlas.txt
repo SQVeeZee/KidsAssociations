@@ -1,0 +1,468 @@
+
+Pig brown layers.png
+size: 2048,1024
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Pig_black/Ear
+  rotate: false
+  xy: 828, 371
+  size: 89, 115
+  orig: 89, 115
+  offset: 0, 0
+  index: -1
+Pig_black/Ear 2
+  rotate: false
+  xy: 882, 33
+  size: 97, 113
+  orig: 97, 113
+  offset: 0, 0
+  index: -1
+Pig_black/Eyebrow
+  rotate: false
+  xy: 657, 771
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+Pig_black/Eyebrow 2
+  rotate: false
+  xy: 486, 766
+  size: 41, 23
+  orig: 41, 23
+  offset: 0, 0
+  index: -1
+Pig_black/Eyelid
+  rotate: false
+  xy: 1070, 23
+  size: 40, 43
+  orig: 41, 43
+  offset: 0, 0
+  index: -1
+Pig_black/Eyelid 2
+  rotate: true
+  xy: 490, 344
+  size: 62, 45
+  orig: 62, 45
+  offset: 0, 0
+  index: -1
+Pig_black/Eyes
+  rotate: false
+  xy: 250, 682
+  size: 132, 70
+  orig: 132, 70
+  offset: 0, 0
+  index: -1
+Pig_black/Foot 2
+  rotate: false
+  xy: 248, 408
+  size: 106, 271
+  orig: 106, 271
+  offset: 0, 0
+  index: -1
+Pig_black/Hair
+  rotate: false
+  xy: 384, 683
+  size: 128, 70
+  orig: 128, 70
+  offset: 0, 0
+  index: -1
+Pig_black/Hand 2
+  rotate: false
+  xy: 463, 791
+  size: 123, 231
+  orig: 123, 231
+  offset: 0, 0
+  index: -1
+Pig_black/Head
+  rotate: false
+  xy: 491, 141
+  size: 201, 201
+  orig: 201, 201
+  offset: 0, 0
+  index: -1
+Pig_black/Layer 1
+  rotate: false
+  xy: 771, 780
+  size: 12, 14
+  orig: 12, 14
+  offset: 0, 0
+  index: -1
+Pig_black/Mouse
+  rotate: false
+  xy: 629, 348
+  size: 68, 59
+  orig: 68, 59
+  offset: 0, 0
+  index: -1
+Pig_black/Nose
+  rotate: false
+  xy: 806, 693
+  size: 113, 101
+  orig: 113, 101
+  offset: 0, 0
+  index: -1
+Pig_black/Pupil 2
+  rotate: false
+  xy: 522, 408
+  size: 46, 43
+  orig: 46, 43
+  offset: 0, 0
+  index: -1
+Pig_black/Spine
+  rotate: true
+  xy: 2, 681
+  size: 341, 246
+  orig: 341, 246
+  offset: 0, 0
+  index: -1
+Pig_black/Tail
+  rotate: false
+  xy: 921, 712
+  size: 79, 85
+  orig: 79, 85
+  offset: 0, 0
+  index: -1
+Pig_pink/Ear
+  rotate: false
+  xy: 704, 32
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+Pig_pink/Ear 2
+  rotate: false
+  xy: 1084, 101
+  size: 97, 112
+  orig: 97, 112
+  offset: 0, 0
+  index: -1
+Pig_pink/Eyebrow
+  rotate: true
+  xy: 463, 755
+  size: 34, 21
+  orig: 34, 21
+  offset: 0, 0
+  index: -1
+Pig_pink/Eyebrow 2
+  rotate: false
+  xy: 615, 771
+  size: 40, 22
+  orig: 40, 22
+  offset: 0, 0
+  index: -1
+Pig_pink/Eyelid
+  rotate: false
+  xy: 985, 215
+  size: 39, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+Pig_pink/Eyelid 2
+  rotate: true
+  xy: 537, 345
+  size: 61, 44
+  orig: 61, 44
+  offset: 0, 0
+  index: -1
+Pig_pink/Foot 2
+  rotate: false
+  xy: 250, 754
+  size: 104, 268
+  orig: 104, 268
+  offset: 0, 0
+  index: -1
+Pig_pink/Hair
+  rotate: true
+  xy: 491, 13
+  size: 126, 69
+  orig: 126, 69
+  offset: 0, 0
+  index: -1
+Pig_pink/Hand 2
+  rotate: false
+  xy: 461, 453
+  size: 122, 228
+  orig: 122, 228
+  offset: 0, 0
+  index: -1
+Pig_pink/Head
+  rotate: false
+  xy: 585, 485
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+Pig_pink/Mouse
+  rotate: true
+  xy: 739, 416
+  size: 67, 58
+  orig: 67, 58
+  offset: 0, 0
+  index: -1
+Pig_pink/Nose
+  rotate: true
+  xy: 981, 68
+  size: 112, 101
+  orig: 112, 101
+  offset: 0, 0
+  index: -1
+Pig_pink/Pupil 2
+  rotate: false
+  xy: 570, 408
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+Pig_pink/Spine
+  rotate: true
+  xy: 2, 342
+  size: 337, 244
+  orig: 337, 244
+  offset: 0, 0
+  index: -1
+Pig_pink/Tail
+  rotate: false
+  xy: 726, 686
+  size: 78, 83
+  orig: 78, 83
+  offset: 0, 0
+  index: -1
+Pig_spotted/Ear
+  rotate: false
+  xy: 919, 373
+  size: 87, 113
+  orig: 87, 113
+  offset: 0, 0
+  index: -1
+Pig_spotted/Ear 2
+  rotate: false
+  xy: 833, 799
+  size: 95, 110
+  orig: 95, 110
+  offset: 0, 0
+  index: -1
+Pig_spotted/Eyebrow
+  rotate: false
+  xy: 695, 771
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+Pig_spotted/Eyebrow 2
+  rotate: false
+  xy: 529, 766
+  size: 41, 23
+  orig: 41, 23
+  offset: 0, 0
+  index: -1
+Pig_spotted/Eyelid
+  rotate: false
+  xy: 1067, 215
+  size: 38, 42
+  orig: 39, 42
+  offset: 0, 0
+  index: -1
+Pig_spotted/Eyelid 2
+  rotate: false
+  xy: 461, 408
+  size: 59, 43
+  orig: 59, 43
+  offset: 0, 0
+  index: -1
+Pig_spotted/Foot 2
+  rotate: false
+  xy: 356, 415
+  size: 103, 265
+  orig: 103, 265
+  offset: 0, 0
+  index: -1
+Pig_spotted/Hair
+  rotate: true
+  xy: 633, 14
+  size: 125, 69
+  orig: 125, 69
+  offset: 0, 0
+  index: -1
+Pig_spotted/Hand 2
+  rotate: false
+  xy: 711, 796
+  size: 120, 226
+  orig: 120, 226
+  offset: 0, 0
+  index: -1
+Pig_spotted/Head
+  rotate: false
+  xy: 785, 488
+  size: 196, 196
+  orig: 196, 196
+  offset: 0, 0
+  index: -1
+Pig_spotted/Mouse
+  rotate: true
+  xy: 768, 348
+  size: 66, 58
+  orig: 66, 58
+  offset: 0, 0
+  index: -1
+Pig_spotted/Nose
+  rotate: true
+  xy: 833, 911
+  size: 111, 100
+  orig: 111, 100
+  offset: 0, 0
+  index: -1
+Pig_spotted/Pupil 2
+  rotate: true
+  xy: 1026, 21
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+Pig_spotted/Spine
+  rotate: true
+  xy: 247, 7
+  size: 333, 242
+  orig: 333, 242
+  offset: 0, 0
+  index: -1
+Pig_spotted/Tail
+  rotate: false
+  xy: 935, 940
+  size: 77, 82
+  orig: 77, 82
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Ear
+  rotate: false
+  xy: 793, 32
+  size: 87, 114
+  orig: 87, 114
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Ear 2
+  rotate: true
+  xy: 1112, 2
+  size: 97, 111
+  orig: 97, 111
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Eyebrow
+  rotate: false
+  xy: 733, 772
+  size: 36, 22
+  orig: 36, 22
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Eyebrow 2
+  rotate: false
+  xy: 572, 766
+  size: 41, 23
+  orig: 41, 23
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Eyelid
+  rotate: false
+  xy: 1026, 215
+  size: 39, 42
+  orig: 40, 42
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Eyelid 2
+  rotate: true
+  xy: 583, 346
+  size: 60, 44
+  orig: 60, 44
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Foot 2
+  rotate: false
+  xy: 356, 755
+  size: 105, 267
+  orig: 105, 267
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Hair
+  rotate: true
+  xy: 562, 13
+  size: 126, 69
+  orig: 126, 69
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Hand 2
+  rotate: false
+  xy: 588, 795
+  size: 121, 227
+  orig: 121, 227
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Head
+  rotate: false
+  xy: 694, 148
+  size: 198, 198
+  orig: 198, 198
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Mouse
+  rotate: false
+  xy: 699, 348
+  size: 67, 59
+  orig: 67, 59
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Nose
+  rotate: true
+  xy: 985, 259
+  size: 112, 101
+  orig: 112, 101
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Pupil 2
+  rotate: true
+  xy: 981, 21
+  size: 45, 43
+  orig: 45, 43
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Spine
+  rotate: true
+  xy: 2, 5
+  size: 335, 243
+  orig: 335, 243
+  offset: 0, 0
+  index: -1
+Pigs_Brown/Tail
+  rotate: false
+  xy: 930, 826
+  size: 78, 83
+  orig: 78, 83
+  offset: 0, 0
+  index: -1
+effects/Splash 21_00003
+  rotate: false
+  xy: 617, 409
+  size: 120, 74
+  orig: 120, 74
+  offset: 0, 0
+  index: -1
+effects/Splash 21_00005
+  rotate: true
+  xy: 894, 182
+  size: 187, 89
+  orig: 187, 89
+  offset: 0, 0
+  index: -1
+effects/Splash 21_00006
+  rotate: false
+  xy: 514, 685
+  size: 210, 79
+  orig: 210, 79
+  offset: 0, 0
+  index: -1
+effects/Splash 21_00007
+  rotate: false
+  xy: 248, 343
+  size: 240, 63
+  orig: 240, 63
+  offset: 0, 0
+  index: -1

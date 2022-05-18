@@ -14,3 +14,7 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   _levelName: Level_6
   _animalType: 6
+  _animalController: {fileID: 2392700721412106080, guid: 14d33fd5f6f65394ba56be40aa40cad0,
+    type: 3}
+  _tailsPanel: {fileID: 9132599781402331705, guid: 4f269dca50b321b4ea5c3889d33bb28a,
+    type: 3}

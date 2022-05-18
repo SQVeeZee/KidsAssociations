@@ -1,0 +1,223 @@
+
+Dog merged layers.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+Arm 2
+  rotate: true
+  xy: 508, 416
+  size: 94, 245
+  orig: 94, 245
+  offset: 0, 0
+  index: -1
+Ear 1 1
+  rotate: false
+  xy: 493, 107
+  size: 103, 107
+  orig: 103, 107
+  offset: 0, 0
+  index: -1
+Ear 1 2
+  rotate: false
+  xy: 493, 38
+  size: 98, 67
+  orig: 98, 67
+  offset: 0, 0
+  index: -1
+Ear 2 1
+  rotate: true
+  xy: 257, 6
+  size: 97, 137
+  orig: 97, 137
+  offset: 0, 0
+  index: -1
+Ear 2 2
+  rotate: false
+  xy: 303, 105
+  size: 117, 109
+  orig: 117, 109
+  offset: 0, 0
+  index: -1
+Eyebrow
+  rotate: false
+  xy: 493, 10
+  size: 53, 26
+  orig: 53, 26
+  offset: 0, 0
+  index: -1
+Eyebrow 2
+  rotate: false
+  xy: 691, 82
+  size: 59, 31
+  orig: 59, 31
+  offset: 0, 0
+  index: -1
+Eyelid
+  rotate: false
+  xy: 257, 152
+  size: 40, 47
+  orig: 40, 47
+  offset: 0, 0
+  index: -1
+Eyelid 2
+  rotate: true
+  xy: 684, 5
+  size: 73, 56
+  orig: 73, 56
+  offset: 0, 0
+  index: -1
+Eyelid closed
+  rotate: true
+  xy: 888, 463
+  size: 47, 63
+  orig: 47, 63
+  offset: 0, 0
+  index: -1
+Eyelid closed 2
+  rotate: false
+  xy: 593, 2
+  size: 89, 76
+  orig: 89, 76
+  offset: 0, 0
+  index: -1
+Eyes
+  rotate: false
+  xy: 107, 21
+  size: 140, 66
+  orig: 140, 66
+  offset: 0, 0
+  index: -1
+Head
+  rotate: true
+  xy: 303, 315
+  size: 195, 203
+  orig: 195, 204
+  offset: 0, 0
+  index: -1
+Head2
+  rotate: false
+  xy: 762, 237
+  size: 97, 178
+  orig: 97, 178
+  offset: 0, 0
+  index: -1
+Leg 2
+  rotate: false
+  xy: 618, 179
+  size: 142, 235
+  orig: 142, 235
+  offset: 0, 0
+  index: -1
+Medal
+  rotate: false
+  xy: 257, 105
+  size: 40, 45
+  orig: 40, 45
+  offset: 0, 0
+  index: -1
+Mouth
+  rotate: true
+  xy: 508, 323
+  size: 91, 104
+  orig: 91, 104
+  offset: 0, 0
+  index: -1
+Mouth 1
+  rotate: false
+  xy: 753, 51
+  size: 92, 89
+  orig: 92, 89
+  offset: 0, 0
+  index: -1
+Mouth 2
+  rotate: false
+  xy: 762, 142
+  size: 97, 93
+  orig: 97, 93
+  offset: 0, 0
+  index: -1
+Mouth 3
+  rotate: false
+  xy: 847, 51
+  size: 90, 89
+  orig: 90, 89
+  offset: 0, 0
+  index: -1
+Mouth 4
+  rotate: false
+  xy: 598, 80
+  size: 91, 97
+  orig: 91, 97
+  offset: 0, 0
+  index: -1
+Mouth 5
+  rotate: false
+  xy: 2, 4
+  size: 103, 83
+  orig: 103, 83
+  offset: 0, 0
+  index: -1
+Neck
+  rotate: true
+  xy: 2, 89
+  size: 157, 253
+  orig: 157, 253
+  offset: 0, 0
+  index: -1
+Nose
+  rotate: false
+  xy: 755, 417
+  size: 131, 93
+  orig: 131, 93
+  offset: 0, 0
+  index: -1
+Pupil 2
+  rotate: true
+  xy: 861, 362
+  size: 53, 50
+  orig: 53, 50
+  offset: 0, 0
+  index: -1
+Pupil22
+  rotate: false
+  xy: 257, 201
+  size: 44, 45
+  orig: 44, 45
+  offset: 0, 0
+  index: -1
+Spine
+  rotate: false
+  xy: 2, 248
+  size: 299, 262
+  orig: 299, 262
+  offset: 0, 0
+  index: -1
+Tail line
+  rotate: true
+  xy: 422, 9
+  size: 205, 69
+  orig: 205, 69
+  offset: 0, 0
+  index: -1
+Tongue
+  rotate: false
+  xy: 691, 115
+  size: 60, 62
+  orig: 60, 62
+  offset: 0, 0
+  index: -1
+blik1
+  rotate: false
+  xy: 396, 86
+  size: 15, 17
+  orig: 15, 17
+  offset: 0, 0
+  index: -1
+stick
+  rotate: false
+  xy: 303, 216
+  size: 313, 97
+  orig: 313, 98
+  offset: 0, 1
+  index: -1

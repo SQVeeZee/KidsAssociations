@@ -4,9 +4,6 @@ using UnityEngine;
 
 public abstract class BaseScreen : MonoBehaviour, IScreen
 {
-    public event Action<IScreen> onScreenShow = null;
-    public event Action<IScreen> onScreenHide = null;
-
     [SerializeField] protected EScreenType _screenType = EScreenType.NONE;
     
     [Header("Canvas")]
@@ -17,10 +14,15 @@ public abstract class BaseScreen : MonoBehaviour, IScreen
     [SerializeField] protected float _showTime = 0.5f;
     [SerializeField] protected float _hideTime = 0.5f;
 
+    
     public EScreenType ScreenType => _screenType;
 
+    protected abstract void SetData();
+    
     public void DoShow(bool force = false, Action callback = null)
     {
+        _canvasGroup.interactable = true;
+        
         _canvas.gameObject.SetActive(true);
 
         if (force)
@@ -36,12 +38,13 @@ public abstract class BaseScreen : MonoBehaviour, IScreen
         void OnScreenShow()
         {
             callback?.Invoke();
-            onScreenShow?.Invoke(this);
         }
     }
 
     public void DoHide(bool force = false, Action callback = null)
     {
+        _canvasGroup.interactable = false;
+
         if (force)
         {
             _canvasGroup.alpha = 0;
@@ -57,7 +60,6 @@ public abstract class BaseScreen : MonoBehaviour, IScreen
             _canvas.gameObject.SetActive(false);
 
             callback?.Invoke();
-            onScreenHide?.Invoke(this);
         }
     }
 }

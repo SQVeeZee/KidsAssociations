@@ -10,8 +10,18 @@
       <e p="Assets" t="Include">
         <e p="#Scripts" t="Include">
           <e p="Game" t="Include">
+            <e p="Animals" t="Include">
+              <e p="AnimalController.cs" t="Include" />
+              <e p="EAnimalAnimationType.cs" t="Include" />
+            </e>
             <e p="AnimalsContainer" t="Include">
               <e p="AnimalsContainer.cs" t="Include" />
+            </e>
+            <e p="Camera" t="Include">
+              <e p="CameraItem.cs" t="Include" />
+              <e p="CameraManager.cs" t="Include" />
+              <e p="ECameraType.cs" t="Include" />
+              <e p="ICameraItem.cs" t="Include" />
             </e>
             <e p="Configs" t="Include">
               <e p="Levels" t="Include">
@@ -29,8 +39,27 @@
                 </e>
               </e>
             </e>
-            <e p="GameController.cs" t="Include" />
-            <e p="LevelsController.cs" t="Include" />
+            <e p="GameController" t="Include">
+              <e p="GameController.cs" t="Include" />
+            </e>
+            <e p="LevelsController" t="Include">
+              <e p="LevelsController.cs" t="Include" />
+            </e>
+            <e p="SoundsController" t="Include">
+              <e p="ESoundId.cs" t="Include" />
+              <e p="SoundConfig.cs" t="Include" />
+              <e p="SoundsConfigs.cs" t="Include" />
+              <e p="SoundsController.cs" t="Include" />
+              <e p="SoundsControllerSceneObject.cs" t="Include" />
+            </e>
+            <e p="TimeController" t="Include">
+              <e p="TimeConfigs.cs" t="Include" />
+              <e p="TimeController.cs" t="Include" />
+            </e>
+            <e p="TutorialController" t="Include">
+              <e p="HandTutorialController.cs" t="Include" />
+              <e p="TutorialController.cs" t="Include" />
+            </e>
           </e>
           <e p="Tools" t="Include">
             <e p="ResourceRequestExtensions.cs" t="Include" />
@@ -45,6 +74,10 @@
               <e p="BaseScreen.cs" t="Include" />
               <e p="EScreenType.cs" t="Include" />
               <e p="Game" t="Include">
+                <e p="Tails" t="Include">
+                  <e p="Tail.cs" t="Include" />
+                  <e p="TailsPanel.cs" t="Include" />
+                </e>
                 <e p="UIGameScreen.cs" t="Include" />
               </e>
               <e p="IScreen.cs" t="Include" />
@@ -573,7 +606,24 @@
         <e p="YSK_DEV_TEST" t="Include">
           <e p="Game" t="Include">
             <e p="Spine" t="Include">
-              <e p="skeleton.atlas.txt" t="Include" />
+              <e p="Cat" t="Include">
+                <e p="skeleton.atlas.txt" t="Include" />
+              </e>
+              <e p="Cow" t="Include">
+                <e p="skeleton.atlas.txt" t="Include" />
+              </e>
+              <e p="Dog" t="Include">
+                <e p="Dog merged layers.atlas.txt" t="Include" />
+              </e>
+              <e p="horse" t="Include">
+                <e p="skeleton.atlas.txt" t="Include" />
+              </e>
+              <e p="mouse" t="Include">
+                <e p="Mouse merged layers.atlas.txt" t="Include" />
+              </e>
+              <e p="pig" t="Include">
+                <e p="Pig brown layers.atlas.txt" t="Include" />
+              </e>
             </e>
           </e>
         </e>

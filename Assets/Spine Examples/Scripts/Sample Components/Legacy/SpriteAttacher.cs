@@ -142,7 +142,12 @@ namespace Spine.Unity.Examples {
 		/// <summary>Update the slot's attachment to the Attachment generated from the sprite.</summary>
 		public void Attach () {
 			if (spineSlot != null)
+			{
 				spineSlot.Attachment = attachment;
+				var a = (RegionAttachment) spineSlot.Attachment;
+				a.UpdateOffset();
+				//spineSlot.SetToSetupPose();
+			}
 		}
 
 	}

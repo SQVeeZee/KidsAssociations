@@ -1,0 +1,125 @@
+
+skeleton.png
+size: 2048,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+pic/11
+  rotate: false
+  xy: 342, 69
+  size: 174, 441
+  orig: 174, 441
+  offset: 0, 0
+  index: -1
+pic/22
+  rotate: true
+  xy: 518, 48
+  size: 143, 429
+  orig: 143, 429
+  offset: 0, 0
+  index: -1
+pic/Ear
+  rotate: true
+  xy: 92, 14
+  size: 36, 87
+  orig: 36, 87
+  offset: 0, 0
+  index: -1
+pic/Ear 2
+  rotate: true
+  xy: 2, 8
+  size: 42, 88
+  orig: 42, 90
+  offset: 0, 2
+  index: -1
+pic/Eyelid
+  rotate: false
+  xy: 298, 13
+  size: 34, 37
+  orig: 34, 37
+  offset: 0, 0
+  index: -1
+pic/Eyelid 2
+  rotate: false
+  xy: 236, 10
+  size: 60, 40
+  orig: 60, 40
+  offset: 0, 0
+  index: -1
+pic/Eyelid 2 closed
+  rotate: false
+  xy: 443, 10
+  size: 70, 57
+  orig: 70, 57
+  offset: 0, 0
+  index: -1
+pic/Eyelid closed
+  rotate: true
+  xy: 181, 3
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+pic/Eyes
+  rotate: false
+  xy: 894, 196
+  size: 122, 71
+  orig: 124, 73
+  offset: 1, 1
+  index: -1
+pic/Hair
+  rotate: false
+  xy: 734, 198
+  size: 158, 312
+  orig: 158, 312
+  offset: 0, 0
+  index: -1
+pic/Hair 2
+  rotate: false
+  xy: 949, 28
+  size: 145, 166
+  orig: 145, 166
+  offset: 0, 0
+  index: -1
+pic/Head
+  rotate: false
+  xy: 894, 269
+  size: 194, 241
+  orig: 194, 241
+  offset: 0, 0
+  index: -1
+pic/Mouse
+  rotate: false
+  xy: 367, 5
+  size: 74, 62
+  orig: 74, 62
+  offset: 0, 0
+  index: -1
+pic/Pupil
+  rotate: false
+  xy: 334, 15
+  size: 31, 35
+  orig: 33, 37
+  offset: 1, 1
+  index: -1
+pic/Spine
+  rotate: true
+  xy: 2, 52
+  size: 458, 338
+  orig: 458, 338
+  offset: 0, 0
+  index: -1
+pic/Tail
+  rotate: false
+  xy: 518, 193
+  size: 214, 317
+  orig: 214, 317
+  offset: 0, 0
+  index: -1
+pic/bliki
+  rotate: true
+  xy: 334, 2
+  size: 11, 12
+  orig: 13, 14
+  offset: 1, 1
+  index: -1

@@ -9,7 +9,7 @@ public class UIMainMenuScreen : BaseScreen
     
     private void Awake()
     {
-        _levelsController = LevelsController.Instance;
+        SetData();
     }
 
     private void OnEnable()
@@ -32,5 +32,10 @@ public class UIMainMenuScreen : BaseScreen
     private void OnClickLevelIcon(int levelId)
     {
         _levelsController.CreateLevelById(levelId);
+    }
+
+    protected override void SetData()
+    {
+        _levelsController = LevelsController.Instance;
     }
 }

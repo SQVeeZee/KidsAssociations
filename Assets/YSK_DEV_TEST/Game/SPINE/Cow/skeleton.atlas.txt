@@ -1,0 +1,160 @@
+
+skeleton.png
+size: 1024,512
+format: RGBA8888
+filter: Linear,Linear
+repeat: none
+img/1
+  rotate: false
+  xy: 961, 223
+  size: 15, 18
+  orig: 15, 18
+  offset: 0, 0
+  index: -1
+img/Bell1
+  rotate: false
+  xy: 961, 298
+  size: 49, 74
+  orig: 49, 74
+  offset: 0, 0
+  index: -1
+img/Bell2
+  rotate: false
+  xy: 860, 164
+  size: 11, 15
+  orig: 11, 15
+  offset: 0, 0
+  index: -1
+img/Bell3
+  rotate: false
+  xy: 425, 2
+  size: 49, 43
+  orig: 50, 43
+  offset: 1, 0
+  index: -1
+img/Ear 2
+  rotate: true
+  xy: 883, 76
+  size: 136, 67
+  orig: 136, 67
+  offset: 0, 0
+  index: -1
+img/Eyelid
+  rotate: false
+  xy: 523, 3
+  size: 36, 42
+  orig: 36, 42
+  offset: 0, 0
+  index: -1
+img/Eyelid 2
+  rotate: false
+  xy: 961, 374
+  size: 61, 36
+  orig: 61, 36
+  offset: 0, 0
+  index: -1
+img/Eyelid closed
+  rotate: false
+  xy: 961, 243
+  size: 47, 53
+  orig: 47, 53
+  offset: 0, 0
+  index: -1
+img/Eyes
+  rotate: true
+  xy: 952, 87
+  size: 125, 67
+  orig: 125, 67
+  offset: 0, 0
+  index: -1
+img/Green
+  rotate: true
+  xy: 771, 155
+  size: 226, 87
+  orig: 226, 87
+  offset: 0, 0
+  index: -1
+img/Hair
+  rotate: false
+  xy: 760, 43
+  size: 121, 110
+  orig: 121, 110
+  offset: 0, 0
+  index: -1
+img/Hair 2
+  rotate: true
+  xy: 961, 412
+  size: 97, 59
+  orig: 97, 59
+  offset: 0, 0
+  index: -1
+img/Head
+  rotate: true
+  xy: 520, 191
+  size: 190, 249
+  orig: 190, 249
+  offset: 0, 0
+  index: -1
+img/Leg 1 back
+  rotate: true
+  xy: 520, 383
+  size: 126, 333
+  orig: 126, 333
+  offset: 0, 0
+  index: -1
+img/Leg 2 back
+  rotate: true
+  xy: 2, 9
+  size: 176, 421
+  orig: 176, 421
+  offset: 0, 0
+  index: -1
+img/Mouse
+  rotate: true
+  xy: 883, 6
+  size: 68, 83
+  orig: 68, 83
+  offset: 0, 0
+  index: -1
+img/Nose
+  rotate: false
+  xy: 635, 54
+  size: 123, 135
+  orig: 123, 135
+  offset: 0, 0
+  index: -1
+img/Pupil 2
+  rotate: false
+  xy: 476, 3
+  size: 45, 42
+  orig: 45, 42
+  offset: 0, 0
+  index: -1
+img/Ribbon
+  rotate: true
+  xy: 425, 47
+  size: 138, 208
+  orig: 138, 208
+  offset: 0, 0
+  index: -1
+img/Spine
+  rotate: false
+  xy: 2, 187
+  size: 516, 322
+  orig: 516, 322
+  offset: 0, 0
+  index: -1
+img/T (2)
+  rotate: false
+  xy: 860, 181
+  size: 21, 31
+  orig: 21, 31
+  offset: 0, 0
+  index: -1
+img/Tail
+  rotate: false
+  xy: 860, 214
+  size: 99, 295
+  orig: 99, 295
+  offset: 0, 0
+  index: -1

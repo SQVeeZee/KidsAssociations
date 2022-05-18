@@ -1,0 +1,30 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: af2588d265c284a7b9d101906c9a5810, type: 3}
+  m_Name: Mother_CA_SoundConfig
+  m_EditorClassIdentifier: 
+  _soundId: 101
+  _audioClips:
+  - _audioClip: {fileID: 8300000, guid: a24e7a17f29f06a40bb09c420c1a2bf0, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: b3683e323a4e8a442981c664dd46910b, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: a5733c62ab4836541b91a3318907aeff, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: a73deb4ae7172d340bd8a26089ced9e0, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: 7af1620351a1da744b056a3cc99e09b4, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: a9b689c75bf686c418d1af54496b75fc, type: 3}
+    _volume: 1
+  - _audioClip: {fileID: 8300000, guid: 26218a95527a86947a69434c1951902c, type: 3}
+    _volume: 1
