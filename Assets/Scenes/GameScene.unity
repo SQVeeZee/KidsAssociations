@@ -751,24 +751,30 @@ MonoBehaviour:
     _keys: 00000000010000000200000003000000040000000500000006000000
     _values:
     - _spineAtlasAsset: {fileID: 0}
+      _openAnimalPhrase: 0
       _tailsPath: 
     - _spineAtlasAsset: {fileID: 11400000, guid: 6b0c05ed932ba52498c21affc4a16854,
         type: 2}
+      _openAnimalPhrase: 203
       _tailsPath: Tail line
     - _spineAtlasAsset: {fileID: 11400000, guid: bac534055a833ae4dba4fa52c20b9b2f,
         type: 2}
+      _openAnimalPhrase: 202
       _tailsPath: img/Tail
     - _spineAtlasAsset: {fileID: 11400000, guid: 7d3c015744d5236469b32a8372669316,
         type: 2}
+      _openAnimalPhrase: 204
       _tailsPath: Tail line
     - _spineAtlasAsset: {fileID: 11400000, guid: 7b8c9915061b9cd49bc356408bcd6272,
         type: 2}
+      _openAnimalPhrase: 205
       _tailsPath: pic/Tail
     - _spineAtlasAsset: {fileID: 11400000, guid: b1a5daa51fc7ca940ac92480204e0c53,
         type: 2}
+      _openAnimalPhrase: 206
       _tailsPath: Tail
-    - _spineAtlasAsset: {fileID: 11400000, guid: a0ed8aefb874a0548b4d885d314af3b5,
-        type: 2}
+    - _spineAtlasAsset: {fileID: 0}
+      _openAnimalPhrase: 201
       _tailsPath: Tail
 --- !u!1 &946296028
 GameObject:

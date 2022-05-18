@@ -12,6 +12,6 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: a6b194f808b1af6499c93410e504af42, type: 3}
   m_Name: Pig brown layers_Atlas
   m_EditorClassIdentifier: 
-  atlasFile: {fileID: 4900000, guid: 0f846c0e4d234ff4bbeab0cb2f11811d, type: 3}
+  atlasFile: {fileID: 4900000, guid: df1080c37c82d4742b1f56a3e039192b, type: 3}
   materials:
-  - {fileID: 2100000, guid: 96aa6cbac8ec64b46b5fba200b4e96a6, type: 2}
+  - {fileID: 2100000, guid: 60d88ff3f93562f488b016204c97eee2, type: 2}

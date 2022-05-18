@@ -621,9 +621,7 @@
               <e p="mouse" t="Include">
                 <e p="Mouse merged layers.atlas.txt" t="Include" />
               </e>
-              <e p="pig" t="Include">
-                <e p="Pig brown layers.atlas.txt" t="Include" />
-              </e>
+              <e p="Pig brown layers.atlas.txt" t="Include" />
             </e>
           </e>
         </e>

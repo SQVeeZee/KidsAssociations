@@ -35,6 +35,8 @@ public abstract class BaseLevelItem : MonoBehaviour, ILevelItem
         
         _animalController = InstantiateAnimal();
         _animalController.Initialize(_animalType);
+        
+        SoundsController.Instance.Play(_animalsContainer.GetOpenPhraseSound(_animalType));
     }
 
     public void DefineClickedButton(EAnimalType animalType)

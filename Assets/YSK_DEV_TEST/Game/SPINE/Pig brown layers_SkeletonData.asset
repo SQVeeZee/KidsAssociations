@@ -13,9 +13,9 @@ MonoBehaviour:
   m_Name: Pig brown layers_SkeletonData
   m_EditorClassIdentifier: 
   atlasAssets:
-  - {fileID: 11400000, guid: a0ed8aefb874a0548b4d885d314af3b5, type: 2}
+  - {fileID: 11400000, guid: f896b1084d966294e932b6bc6707e055, type: 2}
   scale: 0.01
-  skeletonJSON: {fileID: 4900000, guid: 06117c24deb0c7d4ebbf67cd99c357bf, type: 3}
+  skeletonJSON: {fileID: 4900000, guid: 8ad74b2847837ba48b3d989e04495554, type: 3}
   isUpgradingBlendModeMaterials: 0
   blendModeMaterials:
     requiresBlendModeMaterials: 0

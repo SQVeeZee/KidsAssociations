@@ -24,6 +24,13 @@ public class AnimalsContainer : Singleton<AnimalsContainer>
 
         return atlasAsset;
     }
+
+    public ESoundId GetOpenPhraseSound(EAnimalType animalType)
+    {
+        ESoundId soundId = GetAnimalsAssetData(animalType).OpenAnimalPhrase;
+
+        return soundId;
+    }
     
     public string GetTailByAnimalType(EAnimalType animalType)
     {
@@ -53,8 +60,10 @@ public class AnimalsContainer : Singleton<AnimalsContainer>
     public class AnimalsAssetData
     {
         [SerializeField] private SpineAtlasAsset _spineAtlasAsset = null;
+        [SerializeField] private ESoundId _openAnimalPhrase = ESoundId.NONE;
         [SerializeField] private string _tailsPath = null;
         public SpineAtlasAsset SpineAtlasAsset => _spineAtlasAsset;
+        public ESoundId OpenAnimalPhrase => _openAnimalPhrase;
         public string TailsPath => _tailsPath;
     }
     
