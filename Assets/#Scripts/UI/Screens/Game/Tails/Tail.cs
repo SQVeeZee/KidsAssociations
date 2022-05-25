@@ -11,12 +11,9 @@ public class Tail : MonoBehaviour
     [SerializeField] private RectTransform _rectTransform = null;
     [SerializeField] private Button _button = null;
     [SerializeField] private Image _lightImage = null;
+    
     public EAnimalType AnimalType => _animalType;
-
-    public Vector3 RectPosition()
-    {
-        return _rectTransform.anchoredPosition;
-    }
+    public Vector3 RectPosition => _rectTransform.position;
 
     private Tweener _pulseTween = null;
     private Vector3 _startLocalTailScale = default;

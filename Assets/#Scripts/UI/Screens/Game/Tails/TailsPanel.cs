@@ -40,7 +40,7 @@ public class TailsPanel : MonoBehaviour
         {
             if (tail.AnimalType == animalType)
             {
-                return tail.RectPosition();
+                return tail.RectPosition;
             }
         }
 

@@ -2,14 +2,15 @@
 using Spine;
 using Spine.Unity;
 using Spine.Unity.AttachmentTools;
+using Tools.Resources;
 using UnityEngine;
 
 public class AnimalController : MonoBehaviour
 {
-    
     [SerializeField] private SkeletonAnimation _skeletonAnimation = null;
     [SerializeField] private SkeletonRenderer _skeletonRenderer = null;
-
+    [SerializeField] private ExtraTail _extraTail = null;
+    
     [Header("Animations")]
     [SpineAnimation] [SerializeField]
     private string _noAnimationName = default;
@@ -20,60 +21,52 @@ public class AnimalController : MonoBehaviour
     [SpineAnimation] [SerializeField]
     private string _happyAnimationName = default;
 
-    public string SlotTailName { get; set; }
-    
     private Spine.AnimationState _spineAnimationState;
     private Skeleton _skeleton;
-    private Atlas _atlas;
     private Slot _tailSlot = null;
-    private Attachment _originalAttachment = null;
-    private AtlasRegion _region = null;
-    
-    private SpineAtlasAsset _atlasAsset;
 
-    public void Initialize(EAnimalType animalType)
+    public void Initialize(string slotTail)
     {
-        // SlotTailName = AnimalsContainer.Instance.GetTailByAnimalType(animalType);
-
-        SlotTailName = "Tail line";
-        
-        SetData();
+        SetData(slotTail);
         
         SetTailVisibilityState(false);
         
         PlayAnimation(EAnimalAnimationType.IDLE);
     }
 
-    private void SetData()
+    private void SetData(string slotTail)
     {
+        var slotTailName = slotTail;
+        
         _spineAnimationState = _skeletonAnimation.AnimationState;
         _skeleton = _skeletonAnimation.Skeleton;
         
-        _tailSlot = _skeleton.FindSlot(SlotTailName);
-        _originalAttachment = _tailSlot.Attachment;
+        _tailSlot = _skeleton.FindSlot(slotTailName);
     }
 
     public void SetNewTail(EAnimalType animalType, Action callback = null)
     {
-        var spineAtlasAsset = AnimalsContainer.Instance.GetAtlasByAnimalType(animalType);
-        var slotTailName = AnimalsContainer.Instance.GetTailByAnimalType(animalType);
-
-        _atlasAsset = spineAtlasAsset;
+        AnimalsContainer.Instance.GetAnimalsTail(animalType, OnLoadTail);
         
-        _atlas = _atlasAsset.GetAtlas();
-        _region = _atlas.FindRegion(slotTailName);
-        
-        ApplyNewTail();
-        SetTailVisibilityState(true);
-
-        PlayAnimation(EAnimalAnimationType.NO, delegate
+        void OnLoadTail(Sprite tailSprite)
         {
-            OnIncorrectTailAnimationCompleted(); callback?.Invoke(); 
-        });
+            _extraTail.EnableExtraTail(tailSprite);
+            
+            PlayAnimation(EAnimalAnimationType.NO, delegate
+            {
+                _extraTail.DisableExtraTail();
+                
+                PlayAnimation(EAnimalAnimationType.IDLE);
+                
+                callback?.Invoke(); 
+            });
+        }
     }
 
     public void SetRightTail(Action callback)
     {
+        SetTailVisibilityState(true);
+
         _skeleton.SetToSetupPose();
         
         PlayAnimation(EAnimalAnimationType.HAPPY, callback);
@@ -81,25 +74,7 @@ public class AnimalController : MonoBehaviour
 
     public void DoAnimalSad()
     {
-        SetTailVisibilityState(true);
-
         PlayAnimation(EAnimalAnimationType.SAD);
-    }
-
-    private void ApplyNewTail () {
-        if (!this.enabled) return;
-
-        if (_atlas == null) return;
-        float scale = _skeletonRenderer.skeletonDataAsset.scale;
-
-            if (_region == null) {
-                _tailSlot.Attachment = null;
-            } else if (_originalAttachment != null) {
-                _tailSlot.Attachment = _originalAttachment.GetRemappedClone(_region, true, true, scale);
-            } else {
-                var newRegionAttachment = _region.ToRegionAttachment(_region.name, scale);
-                _tailSlot.Attachment = newRegionAttachment;
-            }
     }
 
     private void PlayAnimation(EAnimalAnimationType animalAnimationType, Action callback = null)
@@ -135,13 +110,6 @@ public class AnimalController : MonoBehaviour
             
             callback?.Invoke();
         }
-    }
-
-    private void OnIncorrectTailAnimationCompleted()
-    {
-        SetTailVisibilityState(false);
-
-        PlayAnimation(EAnimalAnimationType.IDLE);
     }
 
     private void SetTailVisibilityState(bool state)

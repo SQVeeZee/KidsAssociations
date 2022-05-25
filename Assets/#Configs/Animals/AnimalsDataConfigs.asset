@@ -1,0 +1,46 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 132de930e4cde844a94ce79aa2b80bb4, type: 3}
+  m_Name: AnimalsDataConfigs
+  m_EditorClassIdentifier: 
+  animalsDictionary:
+    reorderableList:
+      canAdd: 1
+      canRemove: 1
+      draggable: 1
+      expandable: 1
+      multipleSelection: 1
+      isExpanded: 1
+      label:
+        m_Text: Keys
+        m_Image: {fileID: 0}
+        m_Tooltip: 
+      headerHeight: 18
+      footerHeight: 13
+      slideEasing: 0.15
+      verticalSpacing: 2
+      showDefaultBackground: 1
+      elementDisplayType: 0
+      elementNameProperty: 
+      elementNameOverride: 
+      elementIcon: {fileID: 0}
+    reqReferences: {fileID: 0}
+    isExpanded: 1
+    _keyValues: 000000000100000002000000030000000400000005000000
+    _keys: 000000000100000002000000030000000400000005000000
+    _values:
+    - {fileID: 0}
+    - {fileID: 11400000, guid: 74d7e0ca43ec20b489a5a97335a08cd4, type: 2}
+    - {fileID: 11400000, guid: 633e879a96cda6e40a5c0c0eaaef0a1c, type: 2}
+    - {fileID: 11400000, guid: 3af504b66d526474c833c9a0159d433c, type: 2}
+    - {fileID: 11400000, guid: a2dd34f8c6c24724e8a3daea7af0cbaa, type: 2}
+    - {fileID: 11400000, guid: 292f6932988528c40b0587faf7021f2d, type: 2}

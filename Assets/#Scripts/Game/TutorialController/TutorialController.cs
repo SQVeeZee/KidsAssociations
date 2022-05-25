@@ -12,8 +12,8 @@ public class TutorialController : Singleton<TutorialController>
     protected override void Awake()
     {
         base.Awake();
-        
-        _cameraManager = CameraManager.Instance;
+
+        Initialize();
     }
 
     public void PlayTutorial(Vector2 screenPosition)
@@ -22,9 +22,7 @@ public class TutorialController : Singleton<TutorialController>
         
         _instanceHandTutorial = InstantiateHandController();
 
-        Vector3 worldPosition = ConvertScreenToWorldPosition(screenPosition);
-
-        _instanceHandTutorial.DoFingerAnimation(worldPosition);
+        _instanceHandTutorial.DoFingerAnimation(screenPosition);
     }
 
     public void ResetTutorial()
@@ -43,13 +41,8 @@ public class TutorialController : Singleton<TutorialController>
         return Instantiate(_handTutorialController, transform);
     }
 
-    private Vector3 ConvertScreenToWorldPosition(Vector2 screenPosition)
+    private void Initialize()
     {
-        var camera = _cameraManager.GetCameraItem(ECameraType.GAME).Camera;
-        
-        Vector3 worldPosition = camera.ScreenToWorldPoint(screenPosition);
-        worldPosition.z = 0;
-        
-        return worldPosition;
+        _cameraManager = CameraManager.Instance;
     }
 }

@@ -13,9 +13,14 @@
             <e p="Animals" t="Include">
               <e p="AnimalController.cs" t="Include" />
               <e p="EAnimalAnimationType.cs" t="Include" />
+              <e p="ExtraTail.cs" t="Include" />
             </e>
             <e p="AnimalsContainer" t="Include">
               <e p="AnimalsContainer.cs" t="Include" />
+            </e>
+            <e p="AnimalsDataConfigs" t="Include">
+              <e p="AnimalsConfigs.cs" t="Include" />
+              <e p="AnimalsDataConfigs.cs" t="Include" />
             </e>
             <e p="Camera" t="Include">
               <e p="CameraItem.cs" t="Include" />
@@ -23,7 +28,10 @@
               <e p="ECameraType.cs" t="Include" />
               <e p="ICameraItem.cs" t="Include" />
             </e>
-            <e p="Configs" t="Include">
+            <e p="GameController" t="Include">
+              <e p="GameController.cs" t="Include" />
+            </e>
+            <e p="LevelsController" t="Include">
               <e p="Levels" t="Include">
                 <e p="EAnimalType.cs" t="Include" />
                 <e p="ELevelCompleteReason.cs" t="Include" />
@@ -38,11 +46,6 @@
                   <e p="LevelsConfigs.cs" t="Include" />
                 </e>
               </e>
-            </e>
-            <e p="GameController" t="Include">
-              <e p="GameController.cs" t="Include" />
-            </e>
-            <e p="LevelsController" t="Include">
               <e p="LevelsController.cs" t="Include" />
             </e>
             <e p="SoundsController" t="Include">
@@ -62,7 +65,10 @@
             </e>
           </e>
           <e p="Tools" t="Include">
-            <e p="ResourceRequestExtensions.cs" t="Include" />
+            <e p="ResourcesController" t="Include">
+              <e p="ResourceController.cs" t="Include" />
+              <e p="ResourceRequestExtensions.cs" t="Include" />
+            </e>
             <e p="Singleton" t="Include">
               <e p="BaseSingleton.cs" t="Include" />
               <e p="CreateSingleton.cs" t="Include" />
@@ -89,6 +95,25 @@
                 <e p="UIMainMenuScreen.cs" t="Include" />
               </e>
               <e p="UIManager.cs" t="Include" />
+            </e>
+          </e>
+        </e>
+        <e p="#Sprites" t="Include">
+          <e p="Spine" t="Include">
+            <e p="Cat" t="Include">
+              <e p="skeleton.atlas.txt" t="Include" />
+            </e>
+            <e p="Cow" t="Include">
+              <e p="skeleton.atlas.txt" t="Include" />
+            </e>
+            <e p="Dog" t="Include">
+              <e p="Dog merged layers.atlas.txt" t="Include" />
+            </e>
+            <e p="horse" t="Include">
+              <e p="skeleton.atlas.txt" t="Include" />
+            </e>
+            <e p="mouse" t="Include">
+              <e p="Mouse merged layers.atlas.txt" t="Include" />
             </e>
           </e>
         </e>
@@ -602,28 +627,6 @@
             </e>
           </e>
           <e p="spine-unity-examples.asmdef" t="Include" />
-        </e>
-        <e p="YSK_DEV_TEST" t="Include">
-          <e p="Game" t="Include">
-            <e p="Spine" t="Include">
-              <e p="Cat" t="Include">
-                <e p="skeleton.atlas.txt" t="Include" />
-              </e>
-              <e p="Cow" t="Include">
-                <e p="skeleton.atlas.txt" t="Include" />
-              </e>
-              <e p="Dog" t="Include">
-                <e p="Dog merged layers.atlas.txt" t="Include" />
-              </e>
-              <e p="horse" t="Include">
-                <e p="skeleton.atlas.txt" t="Include" />
-              </e>
-              <e p="mouse" t="Include">
-                <e p="Mouse merged layers.atlas.txt" t="Include" />
-              </e>
-              <e p="Pig brown layers.atlas.txt" t="Include" />
-            </e>
-          </e>
         </e>
       </e>
       <e p="KidsAssociations.sln" t="IncludeFlat" />

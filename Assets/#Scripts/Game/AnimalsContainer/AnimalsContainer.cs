@@ -1,76 +1,56 @@
 ﻿using System;
-using RotaryHeart.Lib.SerializableDictionary;
-using Spine.Unity;
+using Tools.Resources;
 using UnityEngine;
 
 public class AnimalsContainer : Singleton<AnimalsContainer>
 {
     private const string _iconFolder = "Icons";
+    private const string _tailFolder = "Tails";
+    private const string _tailsPrefix = "tail";
 
-    [SerializeField] private SpineAtlasDictionary _spineAtlasDictionary = new SpineAtlasDictionary();
+    [SerializeField] private AnimalsDataConfigs _animalsDataConfigs = null;
     
-    private string _iconPath => _iconFolder + "/";
+    private ResourceController _resourceController = null;
+
+    protected override void Awake()
+    {
+        base.Awake();
+
+        Initialize();
+    }
     
     public void GetAnimalsIcon(EAnimalType animalType, Action<Sprite> callback)
     {
-        string iconPath = _iconPath + animalType;
+        string iconPath = _iconFolder + "/" + animalType;
             
-        LoadAnimalsSprite(iconPath, callback);
-    }
-
-    public SpineAtlasAsset GetAtlasByAnimalType(EAnimalType animalType)
-    {
-        SpineAtlasAsset atlasAsset = GetAnimalsAssetData(animalType).SpineAtlasAsset;
-
-        return atlasAsset;
-    }
-
-    public ESoundId GetOpenPhraseSound(EAnimalType animalType)
-    {
-        ESoundId soundId = GetAnimalsAssetData(animalType).OpenAnimalPhrase;
-
-        return soundId;
+        _resourceController.LoadAsync(iconPath, callback);
     }
     
-    public string GetTailByAnimalType(EAnimalType animalType)
+    public void GetAnimalsTail(EAnimalType animalType, Action<Sprite> callback)
+    {
+        string tailPath = _tailFolder + "/" + animalType + " " + _tailsPrefix;
+            
+        _resourceController.LoadAsync(tailPath, callback);
+    }
+    
+    public string GetSlotTailName(EAnimalType animalType)
     {
         string tailsPath = GetAnimalsAssetData(animalType).TailsPath;
 
         return tailsPath;
     }
 
-
-    private AnimalsAssetData GetAnimalsAssetData(EAnimalType animalType)
+    private AnimalsConfigs GetAnimalsAssetData(EAnimalType animalType)
     {
-        AnimalsAssetData animalsAssetData = null;
-        _spineAtlasDictionary.TryGetValue(animalType, out animalsAssetData);
+        AnimalsConfigs animalsConfigs = null;
         
-        return animalsAssetData;
+        _animalsDataConfigs.AnimalsConfigsDictionary.TryGetValue(animalType, out animalsConfigs);
+        
+        return animalsConfigs;
     }
     
-    private void LoadAnimalsSprite(string iconPath, Action<Sprite> callback)
+    private void Initialize()
     {
-        var request = Resources.LoadAsync<Sprite>(iconPath);
-
-        ResourceRequestExtensions.GetAwaiter(request).OnCompleted(
-            delegate { callback?.Invoke((Sprite) request.asset); });
-    }
-
-    [Serializable]
-    public class AnimalsAssetData
-    {
-        [SerializeField] private SpineAtlasAsset _spineAtlasAsset = null;
-        [SerializeField] private ESoundId _openAnimalPhrase = ESoundId.NONE;
-        [SerializeField] private string _tailsPath = null;
-        public SpineAtlasAsset SpineAtlasAsset => _spineAtlasAsset;
-        public ESoundId OpenAnimalPhrase => _openAnimalPhrase;
-        public string TailsPath => _tailsPath;
-    }
-    
-    
-    [Serializable]
-    public class SpineAtlasDictionary : SerializableDictionaryBase<EAnimalType, AnimalsAssetData>
-    {
-            
+        _resourceController = ResourceController.Instance;
     }
 }
