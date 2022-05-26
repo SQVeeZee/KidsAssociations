@@ -59,7 +59,7 @@ public abstract class BaseLevelItem : MonoBehaviour, ILevelItem
             else
             {
                 SoundsController.Instance.Play(ESoundId.MOTHER_IA);
-
+                
                 _animalController.SetNewTail(animalType);
             }
         }
@@ -77,7 +77,7 @@ public abstract class BaseLevelItem : MonoBehaviour, ILevelItem
         var animalController = Instantiate(animalControllerPrefab, _animalRoot);
 
         var worldPoint = CameraManager.Instance.GetCameraItem(ECameraType.GAME).Camera
-            .ScreenToWorldPoint(new Vector3(Screen.width / 2f, Screen.height / 4f, 0));
+            .ScreenToWorldPoint(new Vector3(Screen.width / 2f, Screen.height / 10f, 0));
         
         worldPoint.z = 1;
         

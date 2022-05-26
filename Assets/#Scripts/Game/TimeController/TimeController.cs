@@ -68,7 +68,7 @@ public class TimeController : Singleton<TimeController>
         _levelItem.onClickTailButton -= RestartTimer;
         _levelItem = null;
         
-        ResetTimer();        
+        ResetTimer();
     }
 
     private int GetHighestTimePoint()

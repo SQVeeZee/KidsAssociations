@@ -1,14 +1,13 @@
 ﻿using System;
 using Spine;
 using Spine.Unity;
-using Spine.Unity.AttachmentTools;
-using Tools.Resources;
 using UnityEngine;
 
 public class AnimalController : MonoBehaviour
 {
+    private const int track_index = 0;
+    
     [SerializeField] private SkeletonAnimation _skeletonAnimation = null;
-    [SerializeField] private SkeletonRenderer _skeletonRenderer = null;
     [SerializeField] private ExtraTail _extraTail = null;
     
     [Header("Animations")]
@@ -22,6 +21,7 @@ public class AnimalController : MonoBehaviour
     private string _happyAnimationName = default;
 
     private Spine.AnimationState _spineAnimationState;
+    private TrackEntry _trackEntry = null;
     private Skeleton _skeleton;
     private Slot _tailSlot = null;
 
@@ -35,13 +35,13 @@ public class AnimalController : MonoBehaviour
     }
 
     private void SetData(string slotTail)
-    {
-        var slotTailName = slotTail;
-        
+    { 
         _spineAnimationState = _skeletonAnimation.AnimationState;
+        _trackEntry = _spineAnimationState.GetCurrent(track_index);
+        
         _skeleton = _skeletonAnimation.Skeleton;
         
-        _tailSlot = _skeleton.FindSlot(slotTailName);
+        _tailSlot = _skeleton.FindSlot(slotTail);
     }
 
     public void SetNewTail(EAnimalType animalType, Action callback = null)
@@ -65,6 +65,8 @@ public class AnimalController : MonoBehaviour
 
     public void SetRightTail(Action callback)
     {
+        _extraTail.DisableExtraTail();
+        
         SetTailVisibilityState(true);
 
         _skeleton.SetToSetupPose();
@@ -74,43 +76,44 @@ public class AnimalController : MonoBehaviour
 
     public void DoAnimalSad()
     {
-        PlayAnimation(EAnimalAnimationType.SAD);
+        PlayAnimation(EAnimalAnimationType.SAD,null);
     }
 
     private void PlayAnimation(EAnimalAnimationType animalAnimationType, Action callback = null)
     {
-        _spineAnimationState.Complete -= OnCompleteAnimation;
-        
+        _trackEntry.Complete -= OnCompleteAnimation;
+
         switch (animalAnimationType)
         {
-            case EAnimalAnimationType.IDLE: 
+            case EAnimalAnimationType.IDLE:
                 _spineAnimationState.SetAnimation(0, _idleAnimationName, true);
                 break;
-            
-            case EAnimalAnimationType.NO: 
+
+            case EAnimalAnimationType.NO:
                 _spineAnimationState.SetAnimation(0, _noAnimationName, false);
                 break;
 
-            case EAnimalAnimationType.SAD: 
-                _spineAnimationState.SetAnimation(0, _sadAnimationName, false);
+            case EAnimalAnimationType.SAD:
+                _spineAnimationState.SetAnimation(0, _sadAnimationName, true);
                 break;
-            
-            case EAnimalAnimationType.HAPPY: 
+
+            case EAnimalAnimationType.HAPPY:
                 _spineAnimationState.SetAnimation(0, _happyAnimationName, false);
                 break;
         }
 
-        if (callback == null) return;
+        _trackEntry.Complete += OnCompleteAnimation;
         
-        _spineAnimationState.Complete += OnCompleteAnimation;
-
         void OnCompleteAnimation(TrackEntry trackEntry)
         {
-            _spineAnimationState.Complete -= OnCompleteAnimation;
-            
+            _trackEntry.Complete -= OnCompleteAnimation;
+
             callback?.Invoke();
         }
+
     }
+    
+    
 
     private void SetTailVisibilityState(bool state)
     {
