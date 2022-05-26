@@ -14,6 +14,7 @@
               <e p="AnimalController.cs" t="Include" />
               <e p="EAnimalAnimationType.cs" t="Include" />
               <e p="ExtraTail.cs" t="Include" />
+              <e p="InputTracker.cs" t="Include" />
             </e>
             <e p="AnimalsContainer" t="Include">
               <e p="AnimalsContainer.cs" t="Include" />
@@ -56,6 +57,7 @@
               <e p="SoundsControllerSceneObject.cs" t="Include" />
             </e>
             <e p="TimeController" t="Include">
+              <e p="ETimePointType.cs" t="Include" />
               <e p="TimeConfigs.cs" t="Include" />
               <e p="TimeController.cs" t="Include" />
             </e>

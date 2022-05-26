@@ -96,6 +96,8 @@ public class UIGameScreen : BaseScreen
 
     private void OpenMainMenu()
     {
+        _tutorialController.ResetTutorial();
+        
         _levelsController.OnLevelSkipped();
     }
     
