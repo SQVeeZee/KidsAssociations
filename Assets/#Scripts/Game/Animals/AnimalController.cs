@@ -24,7 +24,6 @@ public class AnimalController : MonoBehaviour
     private string _tapStoyachiAnimationName = default;
 
     private Spine.AnimationState _spineAnimationState;
-    private TrackEntry _trackEntry = null;
     private Skeleton _skeleton;
     private Slot _tailSlot = null;
 
@@ -44,13 +43,12 @@ public class AnimalController : MonoBehaviour
         
         SetTailVisibilityState(false);
 
-        PlayIdleAnimation();
+        PlayAnimation(EAnimalAnimationType.IDLE);
     }
 
     private void SetData(string slotTail)
-    { 
+    {
         _spineAnimationState = _skeletonAnimation.AnimationState;
-        _trackEntry = _spineAnimationState.GetCurrent(track_index);
         
         _skeleton = _skeletonAnimation.Skeleton;
         
@@ -60,18 +58,16 @@ public class AnimalController : MonoBehaviour
     public void SetNewTail(EAnimalType animalType, Action callback = null)
     {
         AnimalsContainer.Instance.GetAnimalsTail(animalType, OnLoadTail);
-        
+
         void OnLoadTail(Sprite tailSprite)
         {
             _extraTail.EnableExtraTail(tailSprite);
-            
+
             PlayAnimation(EAnimalAnimationType.NO, delegate
             {
                 _extraTail.DisableExtraTail();
 
-                PlayIdleAnimation();
-                
-                callback?.Invoke(); 
+                callback?.Invoke();
             });
         }
     }
@@ -94,40 +90,21 @@ public class AnimalController : MonoBehaviour
     
     private void OnAnimalClicked()
     {
-        PlayAnimation(EAnimalAnimationType.CLICKED, PlayIdleAnimation);
+        PlayAnimation(EAnimalAnimationType.CLICKED);
     }
-
-    private void PlayIdleAnimation()
-    {
-        PlayAnimation(EAnimalAnimationType.IDLE);
-    }
-
 
     private void PlayAnimation(EAnimalAnimationType animalAnimationType, Action callback)
     {
-//        UnSubscribe(_trackEntry);
-        _trackEntry.Start += OnStartAnimation;
-
         PlayAnimation(animalAnimationType);
-
-        void OnStartAnimation(TrackEntry trackEntry)
-        {
-            _trackEntry.Complete += OnCompleteAnimation;
-        }
         
-        void OnCompleteAnimation(TrackEntry trackEntry)
+        TrackEntry trackEntry = _spineAnimationState.GetCurrent(0);
+        trackEntry.Complete += Complete;
+        
+        // -= ???
+        
+        void Complete(TrackEntry trackEntryCallback)
         {
-            _trackEntry.End += UnSubscribe;
-
             callback?.Invoke();
-        }
-
-        void UnSubscribe(TrackEntry trackEntry)
-        {
-            Debug.Log("Unsubscribe");
-            _trackEntry.Start -= OnStartAnimation;
-            _trackEntry.Complete -= OnCompleteAnimation;
-            _trackEntry.End -= UnSubscribe;
         }
     }
 
@@ -136,25 +113,37 @@ public class AnimalController : MonoBehaviour
         switch (animalAnimationType)
         {
             case EAnimalAnimationType.IDLE:
-                _spineAnimationState.SetAnimation(0, _idleAnimationName, true);
+                PlayAnimation(_idleAnimationName,true);
                 break;
 
             case EAnimalAnimationType.NO:
-                _spineAnimationState.SetAnimation(0, _noAnimationName, false);
+                PlayAnimation(_noAnimationName,false);
+                AddAnimation(_idleAnimationName,true);
                 break;
 
             case EAnimalAnimationType.SAD:
-                _spineAnimationState.SetAnimation(0, _sadAnimationName, true);
+                PlayAnimation(_sadAnimationName,false);
+                AddAnimation(_idleAnimationName,true);
                 break;
 
             case EAnimalAnimationType.HAPPY:
-                _spineAnimationState.SetAnimation(0, _happyAnimationName, false);
+                PlayAnimation(_happyAnimationName,false);
                 break;
             
             case EAnimalAnimationType.CLICKED:
-                _spineAnimationState.SetAnimation(0, _tapStoyachiAnimationName, false);
+                PlayAnimation(_tapStoyachiAnimationName,false);
                 break;
         }
+    }
+
+    private void PlayAnimation(string animationName, bool isLooping)
+    {
+        _spineAnimationState.SetAnimation(0, animationName, isLooping);
+    }
+
+    private void AddAnimation(string animationName, bool isLooping, float delay = 0f)
+    {
+        _spineAnimationState.AddAnimation(0, animationName, isLooping, delay);
     }
 
     private void SetTailVisibilityState(bool state)
