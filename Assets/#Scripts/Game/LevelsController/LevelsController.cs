@@ -1,4 +1,5 @@
 ﻿using System;
+using Tools.Resources;
 using UnityEngine;
 
 public class LevelsController : Singleton<LevelsController>
@@ -52,6 +53,8 @@ public class LevelsController : Singleton<LevelsController>
         
         _currentLevelItem.onLevelCompleted -= OnLevelComplete;
         Destroy(_currentLevelItem.gameObject);
+        
+        ResourceController.Instance.UnloadUnusedAssets();
         
         onLevelComplete?.Invoke(levelCompleteReason);
         
